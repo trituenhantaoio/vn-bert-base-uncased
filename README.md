@@ -1,3 +1,12 @@
+# Update Feb, 2nd
+The model is available on [Hugging Face](https://huggingface.co/trituenhantaoio)
+## Usage
+```python
+from transformers import BertForSequenceClassification
+from transformers import BertTokenizer
+model = BertForSequenceClassification.from_pretrained("trituenhantaoio/bert-base-vietnamese-uncased")
+tokenizer = BertTokenizer.from_pretrained("trituenhantaoio/bert-base-vietnamese-uncased")
+```
 # vn-bert-based-uncased
 Pretrained Vietnamese BERT
 
