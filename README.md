@@ -1,5 +1,8 @@
 # Update Feb, 2nd
 The model is available on [Hugging Face](https://huggingface.co/trituenhantaoio)
+There are two models: 
+- [trituenhantaoio/bert-base-vietnamese-uncased](https://huggingface.co/trituenhantaoio/bert-base-vietnamese-uncased)
+- [trituenhantaoio/bert-base-vietnamese-diacritics-uncased](https://huggingface.co/trituenhantaoio/bert-base-vietnamese-diacritics-uncased) (giữ dấu tiếng Việt)
 ## Usage
 ```python
 from transformers import BertForSequenceClassification
